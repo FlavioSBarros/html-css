@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.ico" type="image/x-icon">
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <hr>
+    <p>tente abrir esse site em varios dispositivos direfentes ou simplismente aumente e diminua o tamnaho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <hr>
+    <p>Vamos aprender a reproduzir audio em html5.</p>
+    <p>Escute o podcast do gustavo guanabara.</p>
+    <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+    <p>caso nao abra o audio e queira ouvi-lo click nesse <strong></strong><a href="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex011/midia/guanacast-33.mp3" target="_blank" rel="externo"><strong><mark>link</mark></strong></a></p>
+    <h1>videos com html5</h1>
+    <hr>
+    <h2>inserindo videos hospedados localmente.</h2>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+    <video src="videos/pexels.mp4" width="450" controls></video>
+    <p>caso o video nao abra click no <a href="https://www.pexels.com/pt-br/video/derramando-um-copo-de-agua-2311965/" target="_blank" rel="externo"><strong><mark>link</mark></strong></a></p>
+</body>
+</html>
